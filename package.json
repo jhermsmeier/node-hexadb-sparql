@@ -1,0 +1,38 @@
+{
+  "name": "hexadb-sparql",
+  "version": "0.0.0",
+  "description": "SPARQL interface for HexaDB",
+  "license": "MIT",
+  "keywords": [
+    "sparql",
+    "hexadb"
+  ],
+  "main": "lib/sparql",
+  "author": {
+    "name": "Jonas Hermsmeier",
+    "email": "jhermsmeier@gmail.com",
+    "url": "https://jhermsmeier.de/"
+  },
+  "dependencies": {
+    "sparqljs": "~1.0.4"
+  },
+  "devDependencies": {
+    "hexadb": "git://github.com/jhermsmeier/node-hexadb",
+    "memdb": "~0.2.0",
+    "mocha": "~2.1.0"
+  },
+  "peerDependencies": {
+    "hexadb": "*"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha"
+  },
+  "homepage": "https://github.com/jhermsmeier/node-hexadb-sparql",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhermsmeier/node-hexadb-sparql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-hexadb-sparql/issues"
+  }
+}
